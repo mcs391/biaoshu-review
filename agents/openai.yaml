@@ -1,0 +1,7 @@
+interface:
+  display_name: "招标与投标终稿审核"
+  short_description: "审招标规则并复核投标文件、报价、证据链和签章终稿"
+  default_prompt: "Use $biaoshu-review to fully review this tender and the bidder's final signed files with line-numbered evidence."
+policy:
+  allow_implicit_invocation: true
+
