@@ -1,5 +1,5 @@
 ---
-name: tender-review-skill
+name: biaoshu-review
 description: >-
   招标文件审标 / tender document review for bidders。审的是招标方发的招标文件(PDF/Word),服务的是要去投标的人。
   输出投标核对清单(废标项+评分项+证明材料+▲标识参数+时间节点),帮投标人在动手写投标文件之前把游戏规则吃透。
@@ -8,7 +8,7 @@ description: >-
   extract disqualification/scoring items, required materials, ▲-marked parameters, with line-numbered evidence.
 ---
 
-# 招标文件审标 tender-review-skill
+# 标书审核 biaoshu-review
 
 **审的是招标方发的招标文件,服务的是要去投标的人。**
 
