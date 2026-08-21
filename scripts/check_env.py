@@ -38,7 +38,7 @@ def check_module(name, friendly_name=None):
 
 
 def main():
-    print("=== tender-review-skill 环境自检 ===\n")
+    print("=== biaoshu-review 环境自检 ===\n")
     system = platform.system()  # Windows / Darwin / Linux
     py_ver = sys.version_info
     py_ok = py_ver >= (3, 8)
@@ -164,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
