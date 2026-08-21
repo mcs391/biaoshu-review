@@ -144,7 +144,7 @@ def create_github_issue(md_body, count):
     try:
         r = subprocess.run(
             ["gh", "issue", "create",
-             "--repo", "matongAI-lab/tender-review-kit",
+             "--repo", "mcs391/biaoshu-review",
              "--title", title,
              "--body", md_body,
              "--label", "keyword-contribution"],
@@ -160,7 +160,7 @@ def create_github_issue(md_body, count):
                 print("  提示: label 'keyword-contribution' 不存在，尝试不带 label...")
                 r2 = subprocess.run(
                     ["gh", "issue", "create",
-                     "--repo", "matongAI-lab/tender-review-kit",
+                     "--repo", "mcs391/biaoshu-review",
                      "--title", title,
                      "--body", md_body],
                     capture_output=True, text=True, encoding="utf-8"
@@ -198,7 +198,7 @@ def create_pr(md_body, count):
 
         r = subprocess.run(
             ["gh", "pr", "create",
-             "--repo", "matongAI-lab/tender-review-kit",
+             "--repo", "mcs391/biaoshu-review",
              "--title", title,
              "--body", md_body],
             cwd=str(BASE), capture_output=True, text=True, encoding="utf-8"
@@ -282,9 +282,10 @@ def main():
         out = BASE / "contribution.md"
         out.write_text(md, encoding="utf-8")
         print("✓ 贡献文件已导出: %s" % out)
-        print("  请复制内容到 GitHub Issue: https://github.com/matongAI-lab/tender-review-kit/issues/new")
+        print("  请复制内容到 GitHub Issue: https://github.com/mcs391/biaoshu-review/issues/new")
         print("  或直接跑: python export_contribution.py <files...> --github")
 
 
 if __name__ == "__main__":
     main()
+
