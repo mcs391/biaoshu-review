@@ -213,7 +213,7 @@ AI 看新增命中,逐条判断:
 >
 > 完全自愿。要把这些词加进开源吗?
 
-- 用户说好 → 跑 `python scripts/export_contribution.py --github`(自动从 `data/local_keywords.json` 读取并创建 GitHub Issue,供维护者审核后再合并)。如果没装 gh CLI,改用 `export_contribution.py`(无 --github)导出文件,告诉用户粘贴到 https://github.com/matongAI-lab/tender-review-kit/issues/new
+- 用户说好 → 跑 `python scripts/export_contribution.py --github`(自动从 `data/local_keywords.json` 读取并创建 GitHub Issue,供维护者审核后再合并)。如果没装 gh CLI,改用 `export_contribution.py`(无 --github)导出文件,告诉用户粘贴到 https://github.com/mcs391/biaoshu-review/issues/new
 - 用户说不 → 正常结束,不再提。**也顺便告诉用户:即使不贡献,follow 仓库 + 定期 `git pull` 就能持续拿到别人贡献的更新**。
 - **只问一次,不纠缠;语气是平等的、说明机制,不是请求**
 
@@ -250,3 +250,4 @@ ARCHITECTURE.md  六层架构纲领
 
 ## 跨工具 / 依赖
 程序 = Python 标准库 + python-docx + pypdf + openpyxl(均 pip);系统依赖仅 pdftotext(PDF 用,缺则回退 pypdf)。相对路径。并行 A/B 是质量增强项;不支持并行任务的客户端(如部分 WorkBuddy / Codex / 国产 agent 场景)走线性 §5,输出结构一致。
+
