@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-08-21 · Community Edition v0.2.0
+## 2026-08-21 · biaoshu-review v0.2.0
 
 ### Added
 
@@ -21,7 +21,7 @@
 
 - 新增签名ByteRange覆盖、签章后追加字节、无签名域PDF，以及“普通表单值不得误判为签名”的回归测试。
 
-## 2026-06-15 · Community Edition v0.1.9
+## 2026-06-15 · biaoshu-review v0.1.9
 
 ### Changed
 
@@ -31,7 +31,7 @@
 - 明确 `export_contribution.py --github` 默认创建 GitHub Issue 供维护者审核,不会自动合并进开源总词库。
 - `README.md`、`SKILL.md`、`FOR_AI.md`、`run_pipeline.py` 和 `export_contribution.py` 均同步展示同一套说明。
 
-## 2026-06-15 · Community Edition v0.1.8
+## 2026-06-15 · biaoshu-review v0.1.8
 
 ### Changed
 
@@ -46,7 +46,7 @@
 
 - 本次词库贡献只包含判词短语和 scope,不包含任何真实标书原文、项目名称、Excel 结果、workspace 产物或用户本地词库文件。
 
-## 2026-06-15 · Community Edition v0.1.7
+## 2026-06-15 · biaoshu-review v0.1.7
 
 ### Fixed
 
@@ -63,7 +63,7 @@
 - 新增回归：默认收割 AI 发现词时会临时回扫当前标书。
 - 新增回归：拒绝入库只清待审清单,不会被解释为忽略当前补漏。
 
-## 2026-06-15 · Community Edition v0.1.6
+## 2026-06-15 · biaoshu-review v0.1.6
 
 ### Fixed
 
@@ -84,3 +84,4 @@
 ### Privacy
 
 - 本次更新不包含任何真实招标文件、Excel 结果、workspace 运行产物或用户本地词库。
+
