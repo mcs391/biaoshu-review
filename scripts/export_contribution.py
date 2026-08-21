@@ -135,7 +135,7 @@ def build_markdown(candidates):
                          source_label, c["count"]))
     lines.append("")
     lines.append("---")
-    lines.append("由 `tender-review-kit/export_contribution.py` 自动生成，%s" % date.today().isoformat())
+    lines.append("由 `biaoshu-review/scripts/export_contribution.py` 自动生成，%s" % date.today().isoformat())
     return "\n".join(lines)
 
 
