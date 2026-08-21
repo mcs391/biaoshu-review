@@ -26,9 +26,9 @@
 
 - 用户发给你的可能只有仓库地址。先确认本地有没有这个项目;没有就下载:
   ```bash
-  git clone https://github.com/matongAI-lab/tender-review-kit.git
+  git clone https://github.com/mcs391/biaoshu-review.git
   ```
-  没有 git 就下 zip 解压(`https://github.com/matongAI-lab/tender-review-kit/archive/refs/heads/main.zip`)。
+  没有 git 就下 zip 解压(`https://github.com/mcs391/biaoshu-review/archive/refs/heads/main.zip`)。
 - 放哪由你定一个合理位置(比如用户主目录),**告诉用户放在哪了**即可,不要问小白"想放哪个路径"。
 - 之后所有命令都在项目根目录下执行。
 
@@ -142,3 +142,4 @@ verify 之后如果出现 `workspace/<项目>.pending_words.json`,说明你在�
 - 老用户回来:跳过第 0、1 步,直接要文件开跑。
 - 顺手跑一下 `git pull`,能拉到其他贡献者新攒的判词(告诉用户这是社区互惠机制)。
 - **如果你的工具支持常驻 skill**:首次跑完交付时,建议用户把本仓库装成常驻 skill(clone 到你工具的 skills 目录,目录名统一用 `tender-review-kit`)——装好后他在任何会话里说"审核这份招标文件"就能直接触发,不用再发咒语。用户同意你就替他装。
+
