@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "_edition": "Community Edition · 开源基础词库",
-  "_about": "本词库约 120+ 词,覆盖通用否决/废标/无效/拒收/取消资格/评分失分/价格包含/送达程序 等核心信号。够基本扫描,不够细分场景。Professional Edition 含几百至上千词 + 行业细分 scope(医疗/军工/海外/科研等)+ 实战准确率证明,见 README 路线图。",
+  "_edition": "biaoshu-review · 基础词库",
+  "_about": "本词库覆盖通用否决、废标、无效、拒收、取消资格、评分失分、价格包含和送达程序等核心信号。词库可在实际审核中经人工确认后持续扩充。",
   "_contributing": "扫到新词?跑 scan_candidates.py → 候选区 → promote_candidates.py 审入库 → 提 PR。",
   "_scope_doc": "scope 取值:bid_phase=投标阶段(递交前)/ evaluation_phase=评标程序 / contract_phase=合同履行期 / customization=商务定制",
   "categories": [
@@ -676,3 +676,4 @@
     "第[一二三四五六七八九十]+章"
   ]
 }
+
