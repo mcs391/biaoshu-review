@@ -35,7 +35,7 @@
 
 ```text
 请帮我下载并运行这个审标工具:
-https://github.com/matongAI-lab/tender-review-kit
+https://github.com/mcs391/biaoshu-review
 仓库里有一份 FOR_AI.md,是写给你的操作手册——先读它,然后带着我把流程跑完。
 我可能不懂技术:每一步用大白话告诉我你在干什么;要安装任何东西,先问我。
 我的招标文件稍后发给你。
@@ -48,7 +48,7 @@ https://github.com/matongAI-lab/tender-review-kit
 把仓库 clone 到你 AI 工具的 skills 目录(各家工具的 skills 目录位置不一样,查你工具的文档),目录名统一用 `tender-review-kit`:
 
 ```bash
-git clone https://github.com/matongAI-lab/tender-review-kit.git <你的 AI 工具 skills 目录>/tender-review-kit
+git clone https://github.com/mcs391/biaoshu-review.git <你的 AI 工具 skills 目录>/tender-review-kit
 ```
 
 不确定你的工具 skills 目录在哪、或工具不支持本地 skill?继续用上面的 `FOR_AI.md` 咒语入口即可,效果一样。
